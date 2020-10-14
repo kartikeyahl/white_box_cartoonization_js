@@ -1,13 +1,13 @@
 tf.setBackend('wasm').then(() => runModel())
 
 const APP = {
-  model: null, size: 576,
+  model: null, size: 800,
   source: document.getElementById('input'),
   canvas: document.getElementById('output'),
   status: document.getElementById('status'),
   download: document.getElementById('download'),
   $: n => document.getElementById(n),
-  path: 'web/model.json'
+  path: 'web-uint8/model.json'
 }
 
 const runModel = async () => {
