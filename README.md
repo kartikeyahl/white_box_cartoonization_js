@@ -1,5 +1,5 @@
 # white box cartoonization on web using tensorflow js
-This is a demo of cartoonization application on web. Where we will be running the model on browser without any server using TF JS. We will be hosting this on github pages. A i want to get a HD output. I canged the dimensions of the image which can take upto 10-15 sec to generte the output.
+This is a demo of cartoonization application on web. Where we will be running the model on browser without any server using TF JS. We will be hosting this on github pages. A i want to get a HD output. **I canged the dimensions of the image, which can take upto 10-15 sec to generte the output.**
 
 live demo of this application [here](https://www.udaykiran.dev/white_box_cartoonization_js/)
 
