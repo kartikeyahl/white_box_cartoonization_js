@@ -1,7 +1,7 @@
 tf.setBackend('wasm').then(() => runModel())
 
 const APP = {
-  model: null, size: 1000,
+  model: null, size: 576,
   source: document.getElementById('input'),
   canvas: document.getElementById('output'),
   status: document.getElementById('status'),
