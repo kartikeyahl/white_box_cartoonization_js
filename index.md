@@ -24,7 +24,7 @@
       <div class="card-body px-0 px-sm-2">
         <div class="d-flex justify-content-between align-items-baseline">
           <h5 class="card-title">Cartoonized Image</h5>
-          <a id="download" class="btn btn-xs btn-primary px-2" download="cartoon.jpeg" href="">Download</a>
+          <a id="download" class="btn btn-xs btn-primary px-2" download="cartoon.jpg" href="">Download</a>
         </div>
         <canvas id="output" class="d-none img-fluid mx-auto"></canvas>
         <div id="status" class="placeholder">
