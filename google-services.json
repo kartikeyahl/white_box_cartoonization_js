@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "974290280566",
+    "firebase_url": "https://facetoons-f0dd1.firebaseio.com",
+    "project_id": "facetoons-f0dd1",
+    "storage_bucket": "facetoons-f0dd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974290280566:android:a5637ee3371ef90692ff57",
+        "android_client_info": {
+          "package_name": "org.kashish.facetoons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974290280566-gq66ivmg4s7bl0ddvbg1tv629868bal2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeCaNNIi_twu2yEQ-KXY2bBKNa60W6-Ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974290280566-gq66ivmg4s7bl0ddvbg1tv629868bal2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
