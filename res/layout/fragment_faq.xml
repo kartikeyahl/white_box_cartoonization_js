@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="org.kashish.facetoons.fragment.FAQFragment"
+    android:background="@color/blueSoft">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dip"
+                android:background="#00000000"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewFAQ1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="Q1. How to get started with Facetoons to cartoonify your photos?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/textViewFAQA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="The simplest manner of getting your facemojis to be created is here! Just go through the introduction of the modules of the app. \n • The app starts with the screen displaying three options: Camera (to take picture and then animate it), your Facetoons( to get into your past facetooned photos),
+About app which will get you into the classic details of Facetoons App. \n • For facetoons, your camera should be accessible. Permit your camera features. \n • Your facetoons would get you into your back history of cartoonifying images. Device accessibility is required."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#909090" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dip"
+                android:background="#00000000"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewFAQ2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="Q2. What are the permissions required while using the app?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/textViewFAQA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="• Camera \nUse your camera to cartoonify the image and get the best animated version of yourself. \n• Storage \nSave your facetooned images into your gallery, also the facetoons will allow the option to get the photos from gallery and google photos as well."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#909090" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dip"
+                android:background="#00000000"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewFAQ3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="Q3. I forgot my password. What to do now?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/textViewFAQA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="You can reset your password from Facetoons login screen with verified phone number or email id associated with your account."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#909090" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dip"
+                android:background="#00000000"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewFAQ4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="Q4. Is my data secured?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/textViewFAQA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="The safety of your facetoon matter to us. We work on terms and condition which would help you to feel secured.\nOur terms of Service\nThe facetoons would be accessed by the app to get it cartoonified. The feature in this allows you to drag it into your device only. The data is highly secured with user's
+permission to be within the app for cartooning only."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

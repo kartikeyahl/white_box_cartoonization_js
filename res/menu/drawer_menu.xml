@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:checked="true"
+            android:icon="@drawable/action_dashboard"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/action_gallery"
+            android:title="Your Facetoons" />
+
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/action_camera"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/about_app"
+            android:icon="@drawable/action_about_app"
+            android:title="About App" />
+
+        <item
+            android:id="@+id/faqs"
+            android:icon="@drawable/action_faqs"
+            android:title="FAQs" />
+
+    </group>
+
+</menu>
